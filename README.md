@@ -18,10 +18,12 @@
 - Implemented Kadane's algorithm to achieve 0(n) execution time for both style. Kadane's will iterate over array once.
 - Implementation in two styles:
     - Function-based:
-        - function at file `max_subarray_function.py`
-        - unittest at file `test_max_subarray_function.py`
+        - function is at file `max_subarray_function.py`
+        - unittest is at file `test_max_subarray_function.py`
 
     - Class-based:
-        - implement array generator to generate small random arrays and random arrays.
-        - implement Kadane's with attribute array and get the maximum sum of contiguous sub array
+        - class `KadaneAlgorithm` is at file `max_subarray_class.py`
+        - class generator `RandomCase` is at file `max_subarray_class.py`
+        - implementation array generator to generate small random arrays and random arrays.
+        - implementation Kadane's with attribute array and get the maximum sum of contiguous sub array
         - 3 function to test cases (edge, small random array, random array)
