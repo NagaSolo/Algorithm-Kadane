@@ -10,7 +10,7 @@
 
 #### Steps
 - Create python virtual environment (assuming Linux): `python3 -m venv venv`
-- For function implementation, at terminal run following command: `python maximum_subarray.py`.
+- For function implementation, at terminal run the following command: `python maximum_subarray.py`.
 - For function unittest, at terminal run the following command: `python test_max_subarray_function.py`
 - For class implementation, at terminal run the following: `python maximum_subarray_class.py`
 
@@ -23,5 +23,5 @@
 
     - Class-based:
         - implement array generator to generate small random arrays and random arrays.
-        - implement Kadane's which attribute array and get the maximum sum of contiguous sub array
+        - implement Kadane's with attribute array and get the maximum sum of contiguous sub array
         - 3 function to test cases (edge, small random array, random array)
