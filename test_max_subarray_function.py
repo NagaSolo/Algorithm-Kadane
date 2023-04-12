@@ -2,7 +2,7 @@ import unittest
 from max_subarray_function import maximum_subarray
 
 
-class TestAddFishToAquarium(unittest.TestCase):
+class TestMaximumSubarray(unittest.TestCase):
     def test_maximum_subarray_normal(self):
         actual = maximum_subarray([-2, -3, 4, -1, -2, 1, 5, -3])
         expected = 7
